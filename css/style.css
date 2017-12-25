@@ -150,22 +150,6 @@ a {
     transform: translateY(-50%) scaleY(5);
     transition: 0.5s; }
 
-/* Dummy content */
-.dummy-content {
-  position: relative;
-  text-align: center;
-  transition: 0.5s; }
-  .dummy-content:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    z-index: 2;
-    transition: 0.5s; }
-
 .circle {
   display: inline-block;
   width: 75px;
@@ -224,10 +208,10 @@ body {
 
 article {
   /* Subheader */
-  /* Seciton A */
-  /* section B */
-  /* Section C */
-  /* Section D/ Boxes */ }
+  /* Sec A */
+  /* Sec B */
+  /* Sec C */
+  /* Sec D/ Boxes */ }
   article img {
     display: block;
     width: 100%;
