@@ -31,9 +31,9 @@ header {
   .logo-name {
     display:table;
     vertical-align: middle;
-    padding: 0px 0;
+    padding: 0 0;
     line-height: 0.4;
-    margin-top: 0px;
+    margin-top: 0;
     h1 {
       color: #fff;
     }
@@ -75,19 +75,18 @@ header {
     content: '';
     display: block;
     height: 5px;
-    width: 100%;
     background-color: $primary-color;
     border-radius: 15%;
     position: absolute;
     top: 0;
-    width: 0%;
+    width: 0;
     transition: all ease-in-out 250ms;
   }
   #navmain a:hover::before {
     width: 100%;
   }
   #navmain a::after {
-    width: 0%;
+    width: 0;
   }
 }
 header::after {
@@ -166,8 +165,4 @@ header::after {
       font-size: 1em;
     }
   }
-}
-
-@media(min-width: 699px) {
-
 }
