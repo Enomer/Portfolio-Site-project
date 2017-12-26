@@ -69,9 +69,9 @@ a {
 .button-toggle {
   position: absolute;
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 25px;
+  width: 45px;
+  height: 45px;
+  margin: 17px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -330,7 +330,7 @@ header {
     vertical-align: middle;
     float: left;
     padding: 0;
-    margin-left: 3%; }
+    margin-left: 0; }
   header #logoa {
     width: 90px;
     height: 90px;
@@ -423,7 +423,7 @@ header::after {
   .logo {
     position: absolute !important;
     top: 0;
-    left: 5%; }
+    left: 10%; }
 
   #logoa {
     width: 75px !important;
