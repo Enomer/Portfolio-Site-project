@@ -30,7 +30,7 @@ a {
 #toggle:checked:focus ~ .toggle-container .button-toggle {
   box-shadow: 0 0 0 550px rgba(0, 0, 0, 0.1), inset 0 0 0 20px rgba(0, 0, 0, 0.1), 0 0 0 8px rgba(0, 0, 0, 0.1), inset 0 0 0 20px rgba(0, 0, 0, 0.1); }
 #toggle:checked ~ .nav {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   pointer-events: auto;
   transform: translate(50px, 50px); }
   #toggle:checked ~ .nav .nav-item {
@@ -104,6 +104,7 @@ a {
 .nav-item {
   position: relative;
   display: inline-block;
+  float: left;
   clear: both;
   color: transparent;
   font-size: 14px;
@@ -210,7 +211,7 @@ img {
   width: 100%;
   height: auto; }
 
-h1, h2, h3 {
+h2 {
   margin: 0;
   padding: 1em 0; }
 
@@ -337,14 +338,14 @@ header {
     padding: 10px 10px; }
   header .logo-name {
     display: table;
-    vertical-align: middle;
     padding: 0 0;
-    line-height: 0.4;
     margin-top: 0; }
-    header .logo-name h1 {
-      color: #fff; }
     header .logo-name h3 {
-      color: #ff5200; }
+      color: #ff5200;
+      margin: 0; }
+  header .logo-name h1 {
+    color: #fff;
+    margin: 0; }
   header #navmain {
     float: right;
     display: block; }
@@ -429,10 +430,15 @@ header::after {
     height: 70px !important;
     margin-top: 7px; } }
 @media only screen and (max-width: 1041px) {
+  .logo-name {
+    display: table;
+    padding: 1em 0 !important;
+    margin-top: 0; }
+
   header h1 {
-    font-size: 1em;
-    padding-top: 15px; }
+    font-size: 1em; }
   header h3 {
-    font-size: 1em; } }
+    font-size: 1em;
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
