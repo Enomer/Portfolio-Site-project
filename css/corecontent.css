@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-color".
-        on line 117 of sass/corecontent.scss
+        on line 119 of sass/corecontent.scss
 
-112:     background: -moz-linear-gradient(bottom right,#304352,#162851);
-113:     background: linear-gradient(bottom right,#304352,#162851);
-114:     text-align: center;
-115:   }
-116:   #main-footer a {
-117:     color: $primary-color;
-118:     text-decoration: none;
-119:   }
-120:   .SMI {
-121:     display: flex;
-122:     flex-direction:row;
+114:     display: grid;
+115:     grid-template-columns: 1fr 1fr 1fr 1fr;
+116:     justify-items: center;
+117:   }
+118:   #main-footer a > img{
+119:     color: $primary-color;
+120:     text-decoration: none;
+121:     width: 40px;
+122:     height: 40px;
+123:     display: grid;
+124:     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 Backtrace:
-sass/corecontent.scss:117
+sass/corecontent.scss:119
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -80,4 +80,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 117 of sass/corecontent.scss\A \A 112:     background: -moz-linear-gradient(bottom right,#304352,#162851);\A 113:     background: linear-gradient(bottom right,#304352,#162851);\A 114:     text-align: center;\A 115:   }\A 116:   #main-footer a {\A 117:     color: $primary-color;\A 118:     text-decoration: none;\A 119:   }\A 120:   .SMI {\A 121:     display: flex;\A 122:     flex-direction:row;"; }
+  content: "Error: Undefined variable: \"$primary-color\".\A         on line 119 of sass/corecontent.scss\A \A 114:     display: grid;\A 115:     grid-template-columns: 1fr 1fr 1fr 1fr;\A 116:     justify-items: center;\A 117:   }\A 118:   #main-footer a > img{\A 119:     color: $primary-color;\A 120:     text-decoration: none;\A 121:     width: 40px;\A 122:     height: 40px;\A 123:     display: grid;\A 124:     grid-template-columns: 1fr 1fr 1fr 1fr;"; }

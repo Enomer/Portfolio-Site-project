@@ -6,7 +6,7 @@ $primary-color: #ff5200;
 body {
   margin: 0;
   background: #222;
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
 }
 header {
   background: #304352;
@@ -35,7 +35,7 @@ header {
     line-height: 0.4;
     margin-top: 0px;
     h1 {
-      color: #FFF;
+      color: #fff;
     }
     h3 {
       color: $primary-color;
@@ -166,4 +166,8 @@ header::after {
       font-size: 1em;
     }
   }
+}
+
+@media(min-width: 699px) {
+
 }

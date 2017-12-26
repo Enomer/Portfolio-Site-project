@@ -284,21 +284,22 @@ article {
     background: -webkit-linear-gradient(bottom right, #304352, #162851);
     background: -moz-linear-gradient(bottom right, #304352, #162851);
     background: linear-gradient(bottom right, #304352, #162851);
-    text-align: center; }
-  article #main-footer a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center; }
+  article #main-footer a > img {
     color: #ff5200;
-    text-decoration: none; }
-  article .SMI {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-between; }
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em; }
 
 body {
   margin: 0;
   background: #222;
-  font-family: 'Play', sans-serif; }
+  font-family: "Play", sans-serif; }
 
 header {
   background: #304352;
@@ -325,7 +326,7 @@ header {
     line-height: 0.4;
     margin-top: 0px; }
     header .logo-name h1 {
-      color: #FFF; }
+      color: #fff; }
     header .logo-name h3 {
       color: #ff5200; }
   header #navmain {

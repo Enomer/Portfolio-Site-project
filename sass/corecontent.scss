@@ -111,21 +111,19 @@ article {
     background: -webkit-linear-gradient(bottom right,#304352,#162851);
     background: -moz-linear-gradient(bottom right,#304352,#162851);
     background: linear-gradient(bottom right,#304352,#162851);
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
   }
-  #main-footer a {
+  #main-footer a > img{
     color: $primary-color;
     text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em
   }
-  .SMI {
-    display: flex;
-    flex-direction:row;
-    flex-flow:row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-
 
 
 
