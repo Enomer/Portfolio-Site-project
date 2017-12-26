@@ -1,5 +1,4 @@
 $font-stack: 'Play', sans-serif;
-$primary-color: #ff5200;
 @import 'hamburgermenu';
 @import 'corecontent';
 
@@ -38,7 +37,7 @@ header {
       color: #fff;
     }
     h3 {
-      color: $primary-color;
+      color: #ff5200;
     }
   }
 
@@ -75,7 +74,7 @@ header {
     content: '';
     display: block;
     height: 5px;
-    background-color: $primary-color;
+    background-color: #ff5200;
     border-radius: 15%;
     position: absolute;
     top: 0;
