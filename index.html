@@ -20,7 +20,6 @@
             <div class="container">
                 <!-- toggle behavior checkbox -->
                 <input id="toggle" type="checkbox">
-                <!-- IMPORTANT: Any element that needs to be modified when checkbox state changes goes here, being "sibling" of the checkbox element -->
                 <!-- toggle's buttons-->
                 <label class="toggle-container" for="toggle">
                     <!-- X icon on menu open -->
@@ -80,7 +79,16 @@
                     <ul>
                         <li>
                             <div class="card">
-                                <img src="img/Mobile.jpeg" alt="Web and App Developer">
+                              <picture>
+                                <source
+                                media="(min-width: 1000px)"
+                                srcset="img/mobile_large1x.jpeg 1x, img/mobile_large2x.jpeg 2x">
+                                <source
+                                media="(min-width: 500px)"
+                                srcset="img/mobile_medium_1x.jpeg 1x, img/mobile_medium_2x.jpeg 2x">
+                                <img src="img/mobile_medium2x.jpeg"
+                                 alt="Web and App Developer">
+                              </picture>
                                 <div class="card-content">
                                     <h4 class="card-title">Mobile and Desktop Applications</h4>
                                     <p>Now adays, software applications are struggling to reach all their potential audiences. One severe bottleneck in todays world is the lack of cross platform and mobile device support. My mobile-first approach allows not only full responsive design but also full performance optimization.</p>
@@ -89,7 +97,16 @@
                         </li>
                         <li>
                             <div class="card">
-                                <img src="img/Web_App.jpg" alt="Electron and Emmulators">
+                              <picture>
+                                <source
+                                media="(min-width: 1000px)"
+                                srcset="img/mobile_web_large1x.jpeg 1x, img/mobile_web_large2x.jpeg 2x">
+                                <source
+                                media="(min-width: 500px)"
+                                srcset="img/mobile_web_medium_1x.jpeg 1x, img/mobile_web_medium_2x.jpeg 2x">
+                                <img src="img/mobile_web_large1x.jpeg"
+                                 alt="Web and App Developer">
+                              </picture>
                                 <div class="card-content">
                                     <h4 class="card-title">Web Development & Modern Frameworks</h4>
                                     <p>From electron to emmulators, responsive design and compatibility is the core philosophy which i strive to better attune and assimilate my practices and habits to in my developer career.</p>
@@ -98,7 +115,16 @@
                         </li>
                         <li>
                             <div class="card">
-                                <img src="img/wireframe.jpeg" alt="Lifetime Design and Tech enthusiast">
+                              <picture>
+                                <source
+                                media="(min-width: 1000px)"
+                                srcset="img/wireframe_large1x.jpeg 1x, img/wireframe_large2x.jpeg 2x">
+                                <source
+                                media="(min-width: 500px)"
+                                srcset="img/wireframe_medium1x.jpeg 1x, img/wireframe_medium2x.jpeg 2x">
+                                <img src="img/wireframe_medium2x.jpeg.jpeg"
+                                 alt="Web and App Developer">
+                              </picture>
                                 <div class="card-content">
                                     <h4 class="card-title">Lifetime Design and Tech enthusiast</h4>
                                     <p>Being immersed in technology since before the conception of modern software has its advantages, as does being fascinated by figuring out how and why things are designed the way they are. My background of constant questioning and instrospection translates well to my development workflow.</p>
